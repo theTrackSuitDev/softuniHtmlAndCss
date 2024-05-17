@@ -1,0 +1,26 @@
+p.highlight {
+    color: rgb(0, 140, 255);
+    font-size: 20px;
+}
+
+div#special {
+    background-color: orange;
+    padding: 10px;
+}
+
+[type="text"].input {
+    border-color: green;
+    padding: 5px;
+    margin: 10px;
+    display: block;
+}
+
+.important.light {
+    color: skyblue;
+}
+
+.important.heavy {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}

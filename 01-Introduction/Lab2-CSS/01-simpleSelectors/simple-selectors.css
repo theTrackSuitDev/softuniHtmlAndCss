@@ -1,0 +1,32 @@
+h1 {
+    color: brown;
+}
+
+p {
+    font-size: smaller;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#main-title {
+    color: bisque;
+}
+
+#special-paragraph {
+    font-size: large;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    color: cadetblue;
+}
+
+div {
+    background-color: violet;
+}
