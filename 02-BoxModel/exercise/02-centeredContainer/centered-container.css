@@ -1,0 +1,21 @@
+body {
+    border: solid 2px green;
+    padding: 2em;
+}
+
+div.blue-container {
+    border: solid 2px blue;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+div.blue-container>div {
+    border: solid 2px black;
+    padding: 1em;
+    margin: 1em;
+}
+
+p {
+    text-align: center;
+}
