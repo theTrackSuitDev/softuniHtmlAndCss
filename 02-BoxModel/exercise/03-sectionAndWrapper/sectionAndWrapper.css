@@ -1,0 +1,26 @@
+section.green {
+    border: solid 2px green;
+    padding: 2em;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.black-wrapper {
+    border: solid 2px black;
+    max-width: 95vw;
+    margin: 2em auto;
+    padding: 1em 2em;
+}
+
+div.black-wrapper>div {
+    border: solid 2px blue;
+    padding: 1em;
+    margin: 1em;
+    height: 10vh;
+}
+
+p {
+    display: block;
+    text-align: left;
+    padding: 1em;
+}
