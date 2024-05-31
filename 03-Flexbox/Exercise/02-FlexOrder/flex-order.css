@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
+}
+
+div.wrapper {
+    background-color: white;
+    width: 90%;
+    border: transparent;
+    border-radius: 0.3em;
+    margin: 3em auto;
+    padding: 1.5em;
+}
+
+header, footer {
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+    padding: 1.8em;
+    margin-bottom: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main div {
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+    padding: 1.8em;
+    margin-bottom: 1em;
+}
+
+.main {
+    width: 70%;
+}
+
+.sidebar {
+    width: 29%;
+}
+
+div.wrapper:nth-child(2) .sidebar {
+    order: 0
+}
+
+div.wrapper:nth-child(2) .main {
+    order: 1;
+}

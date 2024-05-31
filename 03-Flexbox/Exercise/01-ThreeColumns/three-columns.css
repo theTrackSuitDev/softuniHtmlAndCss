@@ -1,0 +1,82 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+div.site-wrapper {
+    background-color: white;
+    border: transparent;
+    border-radius: 0.2em;
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em 4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
+
+h2 {
+    margin: 1em 2em;
+    text-align: center;
+}
+
+header p {
+    color: gray;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+header hr {
+    color: lightgray;
+    width: 5em;
+    margin: 2em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.column {
+    width: 25%;
+}
+
+h3 {
+    padding-bottom: 0.2em;
+}
+
+div.column p {
+    line-height: 1.5em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+
+footer hr {
+    color: lightgray;
+    width: 5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer p {
+    width: 60%;
+    text-align: center;
+    color: gray;
+}
