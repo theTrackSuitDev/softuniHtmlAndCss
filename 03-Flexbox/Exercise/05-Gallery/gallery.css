@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+
+div.frame {
+    margin: 3em auto;
+    width: 30%;
+    border: 15px solid rgb(71, 71, 71);
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
+}
+
+div.img-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+img {
+    width: 100%;
+    height:fit-content;
+    border-radius: 5px;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
+}
+
+p {
+    align-self: flex-start;
+    padding-top: 1em;
+    font-style: italic;
+}
