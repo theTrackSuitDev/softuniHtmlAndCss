@@ -1,0 +1,68 @@
+body {
+    background-color: #eee;
+}
+
+div.content {
+    margin: 2em auto;
+    padding: 2em 4em 2em 4em;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+hr {
+    width: 5em;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+
+form span {
+    color: red;
+}
+
+.input-field {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.input-field > * {
+    display: block;
+    width: 100%;
+}
+
+input {
+    padding: 1.2em;
+    border-radius: 0.3em;
+}
+
+.button {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding: 1.2rem;
+    font-family: inherit;
+    background-color: #FF8C00;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 0.3em;
+    box-shadow: none;
+    border: none;
+}
+
+.button:hover {
+    background-color: orangered;
+}
+
+.input-field input {
+    border: 2px solid #ccc;
+}
