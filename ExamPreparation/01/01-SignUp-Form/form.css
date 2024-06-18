@@ -1,0 +1,125 @@
+body {
+    background-color: #C1BDBA;
+    color: white;
+}
+
+div.form-wrapper {
+    margin: 2em auto;
+    padding: 2em;
+    max-width: 750px;
+    background-color: #24333C;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    border-radius: 0.2em;
+}
+
+nav {
+    display: flex;
+}
+
+nav div {
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 0.6em;
+}
+
+nav div:nth-child(1) {
+    background-color: #1AB188;
+}
+
+nav div:nth-child(2) {
+    background-color: #435359;
+    color: #94A7A5;
+}
+
+nav div:nth-child(1):hover {
+    cursor: not-allowed;
+}
+
+nav div:nth-child(2):hover {
+    cursor: pointer;
+    background-color: #179A77;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+    padding: 1.2em;
+}
+
+input {
+    font: inherit;
+    background-color: inherit;
+    color: #92928C;
+    border: 1px solid #92928C;
+    padding-top: 0.1em;
+    padding-left: 0.5em;
+    font-size: 27px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.names {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+div.names input {
+    width: 48%;
+    margin-bottom: 1.8em;
+}
+
+form > input {
+    width: 100%;
+}
+
+form > input:not(:last-of-type) {
+    margin-bottom: 1.9em;
+}
+
+input.button {
+    background-color: #1AB188;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+input.button:hover {
+    cursor: pointer;
+    background-color: #179A77;
+}
+
+#first-name + span::after {
+content: "*";
+color: #1AB188;
+position: absolute;
+left: 28%;
+}
+
+#last-name + span::after {
+content: "*";
+color: #1AB188;
+position: absolute;
+left: 76%;
+}
+
+#email + span::after {
+content: "*";
+color: #1AB188;
+position: absolute;
+left: 45%;
+}
+
+#pass + span::after {
+content: "*";
+color: #1AB188;
+position: absolute;
+left: 46%;
+}
