@@ -1,3 +1,5 @@
+/* Header - Nav and banner  */
+
 header {
     background-image: url("./images/background.jpg");
     background-size: 100% auto;
@@ -51,19 +53,19 @@ nav ul li:hover {
     text-decoration: underline;
 }
 
-h1 {
+header h1 {
     text-align: center;
     font-size: 4rem;
     text-shadow: 0px 0px 1px black;
     margin-top: 1.5em;
 }
 
-.slogan {
+header div.slogan {
     padding-top: 0.8em;
     padding-bottom: 0.8em;
 }
 
-.slogan p {
+header div.slogan p {
     text-align: center;
     text-shadow: 0px 0px 1px black;
     margin-bottom: -0.3em;
@@ -84,4 +86,184 @@ h1 {
 .more-info-button:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+/* Main */
+
+/* Section with two columns */
+
+main section.two-columns {
+    background-color: #60ACC1;
+    padding: 2em;
+    padding-bottom: 0.5em;
+}
+
+main section.two-columns h3 {
+    text-align: center;
+}
+
+section.two-columns .slogan p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: -0.3em;
+    font-weight: 500;
+}
+
+div.two-column-card-wrapper {
+    max-width: 1630px;
+    margin: 1.5em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.9);
+}
+
+.card .image {
+    max-width: 360px;
+    max-height: 360px;
+    overflow: hidden;
+}
+
+.card .image img {
+    height: 100%;
+}
+
+.card .description {
+    max-width: 312px;
+    max-height: 360px;
+    padding: 1.5em;
+    background-color: white;
+    border-right: 12px solid #60ACC1;
+}
+
+.card .description h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.card .description p {
+    font-size: 0.75em;
+}
+
+/* Section with three columns */
+
+section.three-columns {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.card-c3 {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 3em;
+    color: #67686B;
+}
+
+.card-c3 .image {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+.card-c3 .image img {
+    height: 100%;
+    width: 170px;
+}
+
+.card-c3 h3 {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+
+.card-c3 p {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+/* Section with 3 columns - images */
+
+.c3-photos {
+    background-color: #60ACC1;
+}
+
+.c3-photos h3 {
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.c3-photos p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: -0.3em;
+    padding-bottom: 1em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.three-columns-photos {
+    padding: 1em 7em 2.5em 7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-c3 {
+    flex: 0 1 440px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.9);
+
+}
+
+.image-c3 img {
+    width: 100%;
+    height: 102%;
+}
+
+/* Footer */
+
+/* About */
+
+.about {
+    background-color: white;
+    color: #67686B;
+    padding-bottom: 1.2em;
+}
+
+.about h3 {
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.about .slogan p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: -0.3em;
+    padding-bottom: 1em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.about > p {
+    text-align: center;
+    padding: 1em 21em;
+    font-size: 0.75em;
+}
+
+/* Copyright */
+
+.copyright {
+    background-color: #2D333C;
+    color: white;
+}
+
+.copyright p {
+    font-size: 0.75em;
+    padding: 1em;
+    text-align: center;
 }
