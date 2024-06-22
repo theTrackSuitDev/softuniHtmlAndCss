@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 PT Sans, sans-serif;
+}
+
+body,
+input,
+textarea,
+button {
+    font: inherit;
+}
+
+
+h1 {
+    font-size: 2.4em;
+    font-family: "PT Serif", serif;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "PT Serif", serif;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-family: "PT Serif", serif;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-family: "PT Serif", serif;
+}
+
+h5 {
+    font-size: 1.2em;
+    font-family: "PT Serif", serif;
+}
+
+h6 {
+    font-size: 1em;
+    font-family: "PT Serif", serif;
+}
+
+header {
+    background-image: url("./images/background.jpg");
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    padding: 3.2em 4em;
+}
+
+.nav-bar {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    max-width: 110px;
+    max-height: 85px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.3em;
+    font-size: 1.4em;
+    padding-right: 1.5em;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.banner {
+    max-width: 45%;
+    margin-left: 12em;
+    margin-top: 4em;
+    margin-bottom: 20em;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 5em;
+    font-weight: 500;
+    line-height: 1.18;
+    padding-bottom: 2rem;
+}
+
+.banner p {
+    font-size: 1.8em;
+}
+
+.two-columns {
+    max-width: 100%;
+    display: flex;
+    padding: 10em 15.7em;
+    gap: 5em;
+    color: #37282B;
+}
+
+.two-columns > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-columns h2 {
+    font-size: 4.3em;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.aims {
+    max-width: 45%;
+}
+
+.objectives {
+    max-width: 46%;
+}
+
+.aims p, .objectives p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+.two-columns .btn {
+    color: #B0825C;
+    padding: 0.5em;
+    border: 2px solid #B0825C;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 2em;
+    width: 30%;
+    text-align: center;
+}
+
+.two-columns .btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #B0825C;
+}
+
+hr {
+    border-color: rgb(245, 245, 245);
+}
+
+.sponsors, .partners {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sponsors h2, .partners h2 {
+    font-size: 4.3em;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    color: #B0825C;
+    padding-top: 3rem;
+}
+
+.sponsors p, .partners p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #5f5f5f;
+    width: 75%;
+    text-align: center;
+}
+
+.sponsors .images {
+    max-width: 23%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5em;
+    padding-bottom: 1em;
+}
+
+.images .image {
+    flex: 0 0 41%;
+    background-color: #ddd;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.image img {
+    width: 90%;
+    height: 100%;
+}
+
+.images .image:hover {
+    cursor: pointer;
+    opacity: 30%;
+}
+
+.partners {
+    padding-bottom: 5.5em;
+}
+
+footer {
+    max-width: 100%;
+    background-color: #171720;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+    margin-bottom: 5em;
+}
+
+.info h3 {
+    color: white;
+    font-weight: 500;
+    padding-top: 2.4em;
+    padding-bottom: 1.7em;
+}
+
+.info p {
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin-bottom: 1.3em;
+}
+
+.info p.url:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.info .address {
+    margin-left: -1em;
+}
+
+.info .statues {
+    margin-left: 8em;
+}
+
+.info .resources {
+    margin-left: 5em;
+}
+
+.info .apps {
+    margin-left: 14em;
+}
+
+footer hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: gray;
+}
+
+.copyright {
+    width: 75%;
+}
+
+.copyright p {
+    color: #ccc;
+    font-size: 1.1em;
+    padding: 1.2em 0;
+}
