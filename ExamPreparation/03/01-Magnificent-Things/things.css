@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 Inter, sans-serif;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+body {
+    background-color: #85DCFF;
+}
+
+.content {
+    max-width: 98%;
+    margin: 7em auto;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .banner {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+    justify-content: center;
+    align-items: start;
+}
+
+.banner h1 {
+    max-width: 75%;
+    font-size: 5.5em;
+    line-height: 1.1;
+}
+
+.banner p {
+    font-size: 1.8rem;
+}
+
+.banner .buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.start-btn {
+    border: 2px solid black;
+    border-radius: 0.2em;
+    background-color: #42AA59;
+    padding: 0.8em 2.2em; 
+    font-size: 1.8rem;
+}
+
+.more-btn {
+    border: transparent;
+    border-radius: 0.2em;
+    background-color: white;
+    padding: 0.8em 2.2em;
+    font-size: 1.8rem;
+
+}
+
+.start-btn:hover, .more-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.image {
+    width: 30%;
+    height: auto;
+    padding: 2em;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 1);
+}

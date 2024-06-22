@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 Karla, sans-serif;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+header {
+    background-image: url("./images/poster.jpg");
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    height: 870px;
+}
+
+.gradient {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 2em 5em;
+}
+
+.nav-bar {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 120px;
+    max-height: 60px;
+}
+
+.logo img {
+    width: 90%;
+}
+
+nav {
+    width: 32%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-between;
+    padding-right: 0.5em;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.banner {
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 13.5em;
+}
+
+.banner h1 {
+    font-size: 118px;
+    font-weight: 800;
+    padding-bottom: 6.2rem;
+    font-family: Cormorant Infant, sans-serif;
+}
+
+.banner p {
+    font-size: 1.4em;
+    max-width: 48%;
+    margin: 0 auto;
+}
+
+.quote {
+    max-width: 100%;
+    background-color: #F8F0E9;
+    color: #352B2A;
+}
+
+.quote .content {
+    margin: 0 auto;
+    max-width: 56%;
+    padding-top: 2.7em;
+}
+
+.quote .content p {
+    font-size: 1.4em;
+    font-weight: 400;
+    padding-bottom: 4em;
+}
+
+.quote .content h1 {
+    font-size: 4em;
+    font-weight: 600;
+    padding-bottom: 8rem;
+    font-family: Cormorant Infant, sans-serif;
+    line-height: 0.8;
+}
+
+.support {
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5em 0;
+    gap: 2.6em;
+    color: white;
+}
+
+.support p {
+    width: 20%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.preview {
+    max-width: 100%;
+    background-color: #F8F0E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5em 0;
+}
+
+.preview .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 620px;
+    color: #352B2A;
+}
+
+.card .image {
+    width: 620px;
+    height: 470px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card h1 {
+    font-size: 4em;
+    font-weight: 600;
+    padding: 5rem 2rem 6rem 2rem;
+    font-family: Cormorant Infant, sans-serif;
+    text-align: center;
+    line-height: 1;
+}
+
+.card p {
+    font-size: 1.2em;
+}
+
+.read-btn {
+    padding: 0.4em 1.2em;
+    border: 1px solid black;
+    font-size: 1.1em;
+    border-radius: 0.2em;
+    background-color: white;
+}
+
+.more {
+    margin: 3.5em 0 5em -23em;
+}
+
+.read-btn:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.guide {
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0;
+    gap: 5em;
+    color: white;
+}
+
+.guide h1 {
+    font-size: 4em;
+    font-weight: 600;
+    font-family: Cormorant Infant, sans-serif;
+    text-align: center;
+}
+
+.guide p {
+    width: 70%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.find-btn {
+    padding: 0.8em 1.2em;
+    border-color: transparent;
+    font-size: 1em;
+    border-radius: 1.5rem;
+    background-color: #FAD87A;
+    color: black;
+}
+
+.find-btn:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+footer {
+    padding: 4em 9em 3em 4em;
+    display: flex;
+    flex-direction: column;
+    background-color: #352B2A;
+    gap: 2em;
+}
+
+footer .logo {
+    width: 80px;
+    height: 40px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+footer p.text {
+    color: white;
+    font-size: 1em;
+    width: 31%;
+}
+
+footer p.copyright {
+    color: gray;
+    font-size: 1em;
+}
