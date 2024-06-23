@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 Gochi Hand, sans-serif;
+}
+
+body {
+    background-color: #E0E0E0;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+.content {
+    width: 1000px;
+    margin: 2em auto;
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.upper {
+    margin: 0.5em 0.5em;
+    margin-bottom: 2em;
+    background-image: url("./images/nature.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 535px;
+    border-radius: 1em 1em 0 0;
+}
+
+.greetings {
+    width: 900px;
+    background-color: white;
+    padding: 1em 2em 1.8em 2em;
+    border-radius: 1em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.greetings h1 {
+    font-size: 1.8em;
+}
+
+.greetings p {
+    font-size: 1.25em;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.2;
+    color: #737373;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 1100px;
+    background-color: #E0E0E0;
+    margin-left: -20px;
+}
+
+.lower h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-left: 1.7em;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+}
+
+.lower p {
+    font-size: 1.4em;
+    color: #737373;
+    margin-left: 2.1em;
+    padding-bottom: 0.5em;
+}
+
+.lower p:nth-of-type(3) {
+    padding-bottom: 1em;
+}
